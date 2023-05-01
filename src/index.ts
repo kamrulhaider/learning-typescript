@@ -1,8 +1,14 @@
 // Spread operator
 
-const friend = ["Saran", "Atul", "Fahad"];
-const bestFriend = ["Tuhin", "Mizan", "Kamrul"];
+const friends = ["Saran", "Atul", "Fahad"];
+const bestFriends = ["Tuhin", "Mizan", "Kamrul"];
 
-friend.push(...bestFriend);
+friends.push(...bestFriends);
 
-console.log(friend);
+// console.log(friends);
+
+// rest parameter
+const greetFriends = (...myFriends: string[]): void =>
+  myFriends.forEach((friend) => console.log(`Hi ${friend}`));
+
+greetFriends(...friends, "Kuddus");
