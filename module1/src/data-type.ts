@@ -1,32 +1,34 @@
-// basic data type
+{
+  // basic data type
 
-// string
-let firstName: string = "John Doe";
+  // string
+  let firstName: string = "John Doe";
 
-// number
+  // number
 
-let age: number = 30;
+  let age: number = 30;
 
-// boolean
+  // boolean
 
-let isStudent: boolean = true;
+  let isStudent: boolean = true;
 
-// null
+  // null
 
-let nullValue: null = null;
+  let nullValue: null = null;
 
-// undefined
+  // undefined
 
-let undefinedValue: undefined = undefined;
+  let undefinedValue: undefined = undefined;
 
-// predeclared type
-let d: string;
+  // predeclared type
+  let d: string;
 
-//array
+  //array
 
-let numbers: number[] = [1, 2, 3, 4, 5];
-let friends: string[] = ["Hello", "John"];
+  let numbers: number[] = [1, 2, 3, 4, 5];
+  let friends: string[] = ["Hello", "John"];
 
-//tuple
+  //tuple
 
-let person: [string, number] = ["John Doe", 30];
+  let person: [string, number] = ["John Doe", 30];
+}
