@@ -1,3 +1,5 @@
-const myName: string = "My name is Kamrul Haider";
+{
+  const myName: string = "My name is Kamrul Haider";
 
-console.log(myName);
+  console.log(myName);
+}
